@@ -1,0 +1,33 @@
+@import "../../common/colors.scss";
+
+.wrapper {
+  .text-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-weight: 600;
+    background: linear-gradient(50deg, #43cea2, #185a9d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin-right: 10px;
+  }
+
+  .go-wrapper {
+    position: relative;
+    .go-to-home {
+      background: linear-gradient(50deg, #43cea2, #185a9d);
+      color: #ffff;
+      font-size: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      margin-left: 45%;
+      border: 1px solid #0f171e;
+      margin-bottom: 20%;
+    }
+  }
+}

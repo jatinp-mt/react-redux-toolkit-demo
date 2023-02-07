@@ -1,0 +1,21 @@
+@import '../../common/colors.scss';
+
+.footer {
+    background-color: $secondary-color;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .copy-right {
+        font-weight: 600;
+        background: linear-gradient(50deg, #43cea2, #185a9d);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        display: inline-block
+    }
+}

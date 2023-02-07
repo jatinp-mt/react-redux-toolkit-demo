@@ -1,0 +1,22 @@
+@import "../../common/colors.scss";
+
+.movie-wrapper {
+    .movie-list , .shows-list {
+        margin: 20px 0px;
+
+        h2 {
+            margin-bottom: 10px;
+            font-weight: 600;
+            background: linear-gradient(50deg, #43cea2, #185a9d);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -moz-text-fill-color: transparent;
+            -webkit-text-fill-color: transparent;
+            display: inline-block
+        }
+    }
+
+    .movie-container {
+    }
+}
